@@ -1,0 +1,51 @@
+
+.background{
+  background-color: black;
+  color: white;
+}
+
+#title {
+  text-align: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color: rgb(148, 70, 18);
+  color: #ffffff;
+}
+
+#date {
+  text-align: center;
+  font-size: 20px;
+}
+
+#video {
+  text-align: center;
+}
+
+#description {
+  text-align: left;
+  margin-bottom: 100px;
+  margin-left: 40px;
+  margin-right: 40px;
+  font-size: 16px;
+
+}
+
+.footer {
+  font-size: 16px;
+  display: flex;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 40px;
+  width: 100%;
+  background-color: rgb(148, 118, 18); /*grey*/
+  justify-content: center;
+  align-items: center;
+}
+
+a:link {
+  color: white;
+}
+a:visited {
+  color: white;
+}
